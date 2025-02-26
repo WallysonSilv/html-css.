@@ -11,16 +11,14 @@
     padding: 0px;
 }
 body{
-    background-color: var(--cor3);
+    background-color: var(--cor4);
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor4) );
     text-align: center;
     padding: 80px;
 }
-header > p{
-    padding-top: 30px;
-}
+
 nav{
     background-color: var(--cor4);
 }
@@ -34,24 +32,28 @@ div{
     width: 40px;
     height: 40px;
 }
+div a{
+    text-decoration: none;
+    color: black;
+}
 div > p{
     display: none;
 }
+
 div:hover > p{
+            
             text-align: center;
             display: block;
             position: relative;
             background-color:var(--cor1);
             width: 150px;    
-            line-height: 2em;    
+            line-height: 2em;  
 }
-div p{
-    background-color: white;
-}
+
 main{
     display: block;
     margin: auto;
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     max-width: 720px;
     text-align: center;
     margin-top: 30px;
@@ -63,15 +65,5 @@ main p{
     margin-top: 30px;
     text-indent: 3px;
 }
-img{
-    max-width: 720px;
-    height: 200px;
-    margin-top: 70px;
-    margin-left: 70px;
-    margin-right: 70px;
-}
 
-#bolo{
-    display: inline;
-    margin: 150px;
-}
+
