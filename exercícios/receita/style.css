@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #db693f;
+}
+img{
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+    background-color: #dd6439;
+}
+h2{
+    background-color: #fcd3aa;
+    margin-left: 20px;
+    margin-top: 10px;
+    width:170px;
+    text-align: center;
+}
+h3{
+    background-color: #fcd3aa;
+    margin-left: 20px;
+    width:170px;
+    text-align: center;
+}
+li{
+    margin: 4px 20px;
+}
